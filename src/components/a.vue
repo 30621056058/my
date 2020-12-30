@@ -1,5 +1,6 @@
 <template>
 <div class="box">
+  <div></div>
  <div class="header">
    <a class="header-left" href="#">深圳
    <i class="iconfont iconsousuo"></i>
