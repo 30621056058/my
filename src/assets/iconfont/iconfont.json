@@ -1,0 +1,30 @@
+{
+  "id": "2292481",
+  "name": "first",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19150038",
+      "name": "餐厅",
+      "font_class": "canting",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "19123065",
+      "name": "person",
+      "font_class": "ren",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "19036094",
+      "name": "search-for",
+      "font_class": "sousuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
