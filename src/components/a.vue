@@ -1,6 +1,6 @@
 <template>
 <div class="box">
-  <div></div>
+  <!-- <div class="po"></div> -->
  <div class="header">
    <a class="header-left" href="#">深圳
    <i class="iconfont iconsousuo"></i>
@@ -17,16 +17,16 @@
  </div>
  <div class="nav-a">
    <ul class="nav-aa">
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
-     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>选择</p></span></a></li>
+     <li><a href=""><router-link target="_blank" :to="{path:'/tiao',query:{id:'1'}}"><span><i class="iconfont iconcanting" id="abs"></i><p>美食</p></span></router-link></a></li>
+     <li><a href=""><router-link :to="{path:'/play',query:{id:'3'}}"> <span><i class="iconfont iconcanting" id="abs"></i><p>玩乐</p></span></router-link></a></li>
+     <li><a href=""><router-link :to="{path:'/b',query:{id:'2'}}"><span><i class="iconfont iconcanting" id="abs"></i><p>电影</p></span></router-link></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>打车</p></span></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>买药</p></span></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>学习</p></span></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>火车票</p></span></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>医疗</p></span></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>买菜</p></span></a></li>
+     <li><a href=""><span><i class="iconfont iconcanting" id="abs"></i><p>外卖</p></span></a></li>
    </ul>
    <div class="anniu">
      <div class="anniuc">
@@ -234,6 +234,7 @@ a {
 }
 .nav-a{
   height: 360px;
+  padding-top: 100px;
 
   background: #fff;
 }
@@ -271,7 +272,7 @@ a {
 
   width: 60px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .v{
   width: 20px;
@@ -430,6 +431,9 @@ li{
   width: 100%;
   font-size: 50px;
   /* top: 30px; */
+}
+.header{
+  position: fixed;
 }
 .header-content-in{
   /* width: 400px; */

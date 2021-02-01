@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "19168636",
+      "name": "向上 (1)",
+      "font_class": "xiangshang1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "19165883",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "19165637",
+      "name": "我的团购",
+      "font_class": "wodetuangou",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "19164911",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
       "icon_id": "19150038",
       "name": "餐厅",
       "font_class": "canting",

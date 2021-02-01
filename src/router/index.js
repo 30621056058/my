@@ -4,11 +4,13 @@ import Router from 'vue-router'
 //引入路由
 import HelloWorld from '@/components/HelloWorld'
 //引入HelloWorld.vue页面（菜鸟的直接理解）
-import v from '@/components/v'
+import movie  from '@/components/movie '
 //引入v.vue页面
 import b from '@/components/b'
 //引入b.vue页面
 import a from '@/components/a'
+import tiao from '@/components/tiao'
+import play from '@/components/play'
 
 Vue.use(Router)
 // 使用路由
@@ -21,17 +23,27 @@ export default new Router({
     },
     // 个人理解：一个路由的格式
     {
-      path: '/v',
+      path: '/movie ',
       // 路径
-      name: 'v',
+      name: 'movie ',
       // 名字
-      component: v
+      component: movie 
       // 通过对应的模板
     },
     {
       path: '/b',
       name: 'b',
       component: b
+    },
+    {
+      path: '/tiao',
+      name: 'tiao',
+      component: tiao
+    },
+    {
+      path: '/play',
+      name: 'play',
+      component: play
     },
     {
       path: '/a',

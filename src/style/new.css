@@ -1,0 +1,165 @@
+.choose{
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    border-bottom: 1px solid gray;
+    padding-top: 82px;
+}
+.gress{
+    /* width: 100%; */
+    /* padding: 20px;/ */
+    padding: 20px;
+    position: fixed;
+    width: 710px;
+    z-index: 99;
+    height: 50px;
+    background-color: #06c7ae;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    line-height: 50px;
+    color: #666666;
+    /* padding: 1px; */
+}
+.choose ul{
+    height: 100%;
+    display: flex;
+}
+.choose li{
+    width: 25%;
+    border-right: 1px solid gainsboro;
+    height: 100%;
+}
+.body{
+    background-color: gainsboro;
+}
+.van-nav-bar{
+    background-color: #06c7ae;
+}
+.van-nav-bar .van-icon{
+    color: white;
+}
+.van-nav-bar__text{
+    color: white;
+}
+.two-box div{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.van-nav-bar__content{
+    height: 100px;
+}
+.van-nav-bar__left{
+    font-size: 30px;
+}
+.van-nav-bar__arrow{
+    font-size: 30px;
+}
+.van-nav-bar__title{
+    font-size: 35px;
+    color: #fff;
+}
+.van-ellipsis{
+    overflow: unset;
+}
+.choose a{
+    font-size: 40px;
+    line-height: 115.2px;
+    color: #666666;
+}
+.choose i{
+    font-size: 40px;
+}
+.shopping{
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.shopping-content{
+    padding: 20px;
+}
+.shopping-content h5{
+    font-size: 40px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #666666;
+}
+.shopping-content i{
+    font-size: 40px;
+    color: #666666;
+}
+.shopping-star{
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+}
+.shopping-star i{
+    /* text-align: left; */
+    float: left;
+    color: orangered;
+}
+.shopping-star strong{
+    float: left;
+    margin-left: 20px;
+    font-size: 30px;
+    color: orangered;
+    margin-top: 10px;
+}
+.shopping-star span{
+    float: right;
+}
+.shopping-c{
+    height: 200px;
+    padding: 20px;
+    border-top: 1px solid gainsboro;
+}
+.shopping-c-left{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.shopping-c-left img{
+    width: 100%;
+    height: 100%;
+}
+.shopping-c-right{
+    padding-left: 210px;
+    text-align: left;
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+}
+.shopping-c-right p{
+    margin: 0;
+    margin-top: 50px;
+}
+.shopping-c-right small{
+    float: right;
+}
+.shopping-c-right h6{
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 75px;
+    color: #666666;
+}
+#dw{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: greenyellow;
+    position: fixed;
+    top: 800px;
+    right: 0;
+}
+#dw i{
+    line-height: 84px;
+}
+.van-dropdown-menu__bar{
+    height: 60px;
+}
+.van-dropdown-menu__title{
+    font-size: 30px;
+}
